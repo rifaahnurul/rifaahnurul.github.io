@@ -2171,6 +2171,8 @@ ul {
 .main_menu .navbar-brand {
   padding-top: 0rem;
   padding-bottom: 0px;
+  font-size: 30px;
+  color: #B08EAD;
 }
 
 /* line 7, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
@@ -2458,7 +2460,7 @@ ul {
 /* line 2, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_banner.scss */
 .banner_part {
   position: relative;
-  height: 782px;
+  height: 480px;
   display: flex;
   align-items: center;
 }
@@ -2498,7 +2500,7 @@ ul {
   left: 0;
   bottom: 0;
   background-color: #B08EAD;
-  width: 196px;
+  width: 150px;
   height: 618px;
 }
 
@@ -3238,7 +3240,7 @@ input:focus {
 /**************** service_part css start ****************/
 /* line 4, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_feature_part.scss */
 .feature_part .feature_part_tittle h3 {
-  font-size: 40px;
+  font-size: 30px;
   line-height: 1.5;
   font-weight: 500;
 }
@@ -3260,6 +3262,7 @@ input:focus {
 /* line 17, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_feature_part.scss */
 .feature_part .feature_part_content p {
   color: #707070;
+  font-size: 18px;
 }
 
 /* line 21, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_feature_part.scss */

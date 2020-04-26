@@ -1,6 +1,7 @@
 Vue.component('componentfooter', {
+    props: ['color'],
     template: `
-     <footer class="footer_part">
+     <footer class="footer_part" v-bind:style="{ backgroundColor: color}">
         <div class="footer_iner">
             <div class="container">
                 <div class="row justify-content-between align-items-center">
@@ -21,10 +22,9 @@ Vue.component('componentfooter', {
                     </div>
                     <div class="col-lg-4">
                         <div class="social_icon">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-google-plus-g"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.facebook.com/Al-Quran-Tulis-110978016940399/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/alquranfollowtheline/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://api.whatsapp.com/send?phone=6289695103118" target="_blank"><i class="fab fa-whatsapp"></i></a>
                         </div>
                     </div>
                 </div>
@@ -56,5 +56,8 @@ Vue.component('componentfooter', {
 })
 
 new Vue({
-    el:"#component_footer"
+    el: "#component_footer"
 })
+
+// <a href="#"><i class="fab fa-google-plus-g" target="_blank"></i></a>
+// <a href="#"><i class="fab fa-linkedin-in" target="_blank"></i></a>

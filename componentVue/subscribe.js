@@ -1,6 +1,7 @@
-Vue.component('componentsubscribe',{
-    template : `
-    <section class="subscribe_part section_padding">
+Vue.component('componentsubscribe', {
+    props: ['color'],
+    template: `
+    <section class="subscribe_part section_padding" v-bind:style="{ backgroundColor: color}">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -32,7 +33,7 @@ Vue.component('componentsubscribe',{
     //       this.name = "Ria";
     //    }
     // }
- });
- new Vue({
+});
+new Vue({
     el: '#component_subscribe'
- });
+});
