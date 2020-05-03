@@ -2301,7 +2301,6 @@ ul {
   content: "";
   border: 0px solid transparent;
 }
-
 /* line 106, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
 .main_menu .cart i {
   position: relative;
@@ -2343,6 +2342,11 @@ ul {
   text-transform: capitalize;
 }
 
+@media (min-width: 1300px) {
+  .product_list{
+    /* padding: 0px 200px 0px 200px !important; */
+  }
+}
 @media (min-width: 991px) {
   /* line 147, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
   .dropdown:hover .dropdown-menu {
@@ -2629,6 +2633,7 @@ ul {
   }
 }
 
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 79, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_banner.scss */
   .banner_part .banner_img {
@@ -2725,6 +2730,8 @@ ul {
 /* line 9, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_single_product.scss */
 .single_product_list .single_product_img {
   position: relative;
+  /* max-width: 500px !important;
+  max-height: 500px !important; */
   margin: 35px 0 0 35px;
 }
 
