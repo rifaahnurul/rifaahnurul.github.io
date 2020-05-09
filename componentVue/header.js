@@ -24,14 +24,7 @@ Vue.component('componentheader', {
                                 <a class="nav-link" href="product_list.html">Produk</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_2"
-                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    blog
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown_2">
-                                    <a class="dropdown-item" href="blog.html"> blog</a>
-                                    <a class="dropdown-item" href="single-blog.html">Single blog</a>
-                                </div>
+                            <a class="nav-link" href="blog.html">blog</a>
                             </li>
 
                             <li class="nav-item">
